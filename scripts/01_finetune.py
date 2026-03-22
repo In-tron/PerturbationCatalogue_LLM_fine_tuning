@@ -203,7 +203,7 @@ def train(args):
         val_ds   = torch.utils.data.Subset(dataset, val_idx)
     else:
         # Too few samples — train on all, validate on all (demo mode)
-        print("  ⚠ Fewer than 10 perturbations — using full dataset for both train/val")
+        print("Fewer than 10 perturbations — using full dataset for both train/val")
         train_ds = val_ds = dataset
 
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True)
@@ -281,7 +281,7 @@ def train(args):
     with open(output_dir / "training_history.json", "w") as f:
         json.dump(history, f, indent=2)
 
-    print(f"\n✅ Fine-tuning complete. Model saved to: {output_dir}")
+    print(f"\n Fine-tuning complete. Model saved to: {output_dir}")
     print(f"   Best val loss: {best_val_loss:.4f}")
 
     # ── Pre-compute and save all perturbation embeddings ────────────────────

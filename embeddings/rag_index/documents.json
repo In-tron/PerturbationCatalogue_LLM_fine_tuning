@@ -1,0 +1,220 @@
+[
+  {
+    "perturbation": "BHLHE40",
+    "text": "Perturbation: knockout of BHLHE40\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 103\n- Up-regulated genes: 20\n- Down-regulated genes: 20\n\nTop up-regulated genes (strongest positive Log2FC):\n  AIF1 (Log2FC=1.80, Padj=5.65e-41, score=14.11)\n  EMP3 (Log2FC=0.59, Padj=1.73e-30, score=12.24)\n  TMSB4X (Log2FC=0.28, Padj=1.05e-26, score=11.48)\n  SH3BGRL3 (Log2FC=0.78, Padj=2.57e-26, score=11.38)\n  GMFG (Log2FC=0.94, Padj=2.35e-18, score=9.64)\n  LY6E (Log2FC=0.43, Padj=8.93e-16, score=9.00)\n  ACTB (Log2FC=0.24, Padj=3.37e-15, score=8.83)\n  IFITM2 (Log2FC=0.64, Padj=1.44e-12, score=8.11)\n  KRT10 (Log2FC=0.32, Padj=2.61e-12, score=8.02)\n  VAMP8 (Log2FC=0.41, Padj=2.65e-12, score=8.01)\n  CLIC1 (Log2FC=0.24, Padj=3.45e-10, score=7.37)\n  FTL (Log2FC=0.11, Padj=6.73e-10, score=7.27)\n  CD47 (Log2FC=0.53, Padj=1.14e-09, score=7.19)\n  PFN1 (Log2FC=0.13, Padj=2.77e-09, score=7.06)\n  PHLDA2 (Log2FC=0.91, Padj=1.55e-08, score=6.81)\n  ITPR1 (Log2FC=1.61, Padj=4.58e-08, score=6.65)\n  LAPTM5 (Log2FC=0.37, Padj=8.58e-08, score=6.55)\n  STMN1 (Log2FC=0.28, Padj=2.25e-06, score=6.02)\n  SPI1 (Log2FC=0.83, Padj=3.33e-06, score=5.95)\n  LIMD2 (Log2FC=0.38, Padj=4.19e-06, score=5.90)\n\nTop down-regulated genes (strongest negative Log2FC):\n  CHI3L2 (Log2FC=-1.88, Padj=2.40e-68, score=-18.06)\n  HBZ (Log2FC=-0.77, Padj=2.44e-33, score=-12.78)\n  APOE (Log2FC=-0.55, Padj=9.35e-27, score=-11.50)\n  HBA1 (Log2FC=-0.51, Padj=2.48e-15, score=-8.88)\n  GPX4 (Log2FC=-0.24, Padj=5.74e-13, score=-8.23)\n  BHLHE40 (Log2FC=-2.57, Padj=9.80e-12, score=-7.84)\n  PRDX2 (Log2FC=-0.23, Padj=3.50e-10, score=-7.37)\n  APOC1 (Log2FC=-0.22, Padj=1.82e-07, score=-6.43)\n  GMPPA (Log2FC=-0.60, Padj=5.52e-07, score=-6.25)\n  GSTP1 (Log2FC=-0.15, Padj=3.11e-06, score=-5.97)\n  ALAS2 (Log2FC=-0.79, Padj=5.78e-06, score=-5.85)\n  PPP1R14A (Log2FC=-0.26, Padj=1.74e-05, score=-5.64)\n  RHOBTB3 (Log2FC=-0.42, Padj=1.78e-05, score=-5.63)\n  STXBP6 (Log2FC=-0.81, Padj=2.46e-05, score=-5.57)\n  PRDX1 (Log2FC=-0.15, Padj=3.37e-05, score=-5.51)\n  NPW (Log2FC=-0.40, Padj=4.83e-05, score=-5.43)\n  SPATC1L (Log2FC=-0.37, Padj=4.83e-05, score=-5.42)\n  PEBP1 (Log2FC=-0.18, Padj=5.27e-05, score=-5.40)\n  MRPL40 (Log2FC=-0.18, Padj=2.56e-04, score=-5.09)\n  RPL8 (Log2FC=-0.07, Padj=4.81e-04, score=-4.96)\n\nInterpretation:\nKnocking out BHLHE40 leads to up-regulation of AIF1, EMP3, TMSB4X, SH3BGRL3, GMFG\nand down-regulation of CHI3L2, HBZ, APOE, HBA1, GPX4.\nThe strongest effect is on CHI3L2 \n(Log2FC=-1.88 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 103,
+      "n_upregulated": 59,
+      "n_downregulated": 44,
+      "top_up_genes": [
+        "AIF1",
+        "EMP3",
+        "TMSB4X",
+        "SH3BGRL3",
+        "GMFG",
+        "LY6E",
+        "ACTB",
+        "IFITM2",
+        "KRT10",
+        "VAMP8"
+      ],
+      "top_down_genes": [
+        "CHI3L2",
+        "HBZ",
+        "APOE",
+        "HBA1",
+        "GPX4",
+        "BHLHE40",
+        "PRDX2",
+        "APOC1",
+        "GMPPA",
+        "GSTP1"
+      ],
+      "max_log2fc": 2.1182203,
+      "min_log2fc": -2.5659418
+    }
+  },
+  {
+    "perturbation": "CREB1",
+    "text": "Perturbation: knockout of CREB1\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 10\n- Up-regulated genes: 4\n- Down-regulated genes: 6\n\nTop up-regulated genes (strongest positive Log2FC):\n  HBG2 (Log2FC=0.33, Padj=7.94e-11, score=7.84)\n  RPSA (Log2FC=0.11, Padj=5.45e-10, score=7.54)\n  HBG1 (Log2FC=0.25, Padj=8.02e-07, score=6.48)\n  EMP3 (Log2FC=0.30, Padj=3.76e-05, score=5.84)\n\nTop down-regulated genes (strongest negative Log2FC):\n  GAL (Log2FC=-0.36, Padj=2.70e-13, score=-8.61)\n  TPT1 (Log2FC=-0.10, Padj=6.68e-04, score=-5.31)\n  RPLP2 (Log2FC=-0.07, Padj=5.20e-03, score=-4.89)\n  WDR83OS (Log2FC=-0.21, Padj=1.35e-02, score=-4.67)\n  GPX4 (Log2FC=-0.12, Padj=3.09e-02, score=-4.47)\n  HBA1 (Log2FC=-0.23, Padj=3.74e-02, score=-4.41)\n\nInterpretation:\nKnocking out CREB1 leads to up-regulation of HBG2, RPSA, HBG1, EMP3\nand down-regulation of GAL, TPT1, RPLP2, WDR83OS, GPX4.\nThe strongest effect is on GAL \n(Log2FC=-0.36 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 10,
+      "n_upregulated": 4,
+      "n_downregulated": 6,
+      "top_up_genes": [
+        "HBG2",
+        "RPSA",
+        "HBG1",
+        "EMP3"
+      ],
+      "top_down_genes": [
+        "GAL",
+        "TPT1",
+        "RPLP2",
+        "WDR83OS",
+        "GPX4",
+        "HBA1"
+      ],
+      "max_log2fc": 0.33468223,
+      "min_log2fc": -0.35957432
+    }
+  },
+  {
+    "perturbation": "DDIT3",
+    "text": "Perturbation: knockout of DDIT3\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 6\n- Up-regulated genes: 3\n- Down-regulated genes: 3\n\nTop up-regulated genes (strongest positive Log2FC):\n  HBG1 (Log2FC=0.30, Padj=4.66e-10, score=7.70)\n  HBG2 (Log2FC=0.33, Padj=5.16e-09, score=7.30)\n  STMN1 (Log2FC=0.26, Padj=4.39e-03, score=4.99)\n\nTop down-regulated genes (strongest negative Log2FC):\n  DDIT3 (Log2FC=-2.56, Padj=5.57e-06, score=-6.23)\n  NPW (Log2FC=-0.45, Padj=8.82e-05, score=-5.73)\n  KRT18 (Log2FC=-0.21, Padj=1.55e-02, score=-4.70)\n\nInterpretation:\nKnocking out DDIT3 leads to up-regulation of HBG1, HBG2, STMN1\nand down-regulation of DDIT3, NPW, KRT18.\nThe strongest effect is on HBG1 \n(Log2FC=0.30 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 6,
+      "n_upregulated": 3,
+      "n_downregulated": 3,
+      "top_up_genes": [
+        "HBG1",
+        "HBG2",
+        "STMN1"
+      ],
+      "top_down_genes": [
+        "DDIT3",
+        "NPW",
+        "KRT18"
+      ],
+      "max_log2fc": 0.333677,
+      "min_log2fc": -2.5603747
+    }
+  },
+  {
+    "perturbation": "EP300",
+    "text": "Perturbation: knockout of EP300\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 23\n- Up-regulated genes: 7\n- Down-regulated genes: 16\n\nTop up-regulated genes (strongest positive Log2FC):\n  FAH (Log2FC=0.81, Padj=7.96e-05, score=5.58)\n  MPC2 (Log2FC=0.34, Padj=2.90e-03, score=4.85)\n  CNIH4 (Log2FC=0.42, Padj=1.15e-02, score=4.55)\n  KDELR1 (Log2FC=0.35, Padj=1.27e-02, score=4.51)\n  STMN1 (Log2FC=0.19, Padj=1.71e-02, score=4.43)\n  CCDC85B (Log2FC=0.24, Padj=1.88e-02, score=4.40)\n  NDUFA8 (Log2FC=0.17, Padj=2.05e-02, score=4.37)\n\nTop down-regulated genes (strongest negative Log2FC):\n  HBG2 (Log2FC=-0.60, Padj=1.07e-33, score=-12.93)\n  APOC1 (Log2FC=-0.38, Padj=1.21e-23, score=-10.95)\n  CHI3L2 (Log2FC=-0.92, Padj=1.84e-23, score=-10.87)\n  HBZ (Log2FC=-0.64, Padj=1.90e-20, score=-10.19)\n  HBG1 (Log2FC=-0.36, Padj=3.69e-19, score=-9.88)\n  SH3BGRL3 (Log2FC=-0.49, Padj=7.90e-08, score=-6.77)\n  MS4A3 (Log2FC=-0.31, Padj=4.35e-07, score=-6.49)\n  HBA1 (Log2FC=-0.35, Padj=6.33e-07, score=-6.41)\n  GYPB (Log2FC=-0.39, Padj=7.95e-07, score=-6.36)\n  HIST1H1C (Log2FC=-0.38, Padj=1.98e-05, score=-5.83)\n  NPW (Log2FC=-0.37, Padj=4.07e-04, score=-5.27)\n  LGALS1 (Log2FC=-0.42, Padj=1.57e-03, score=-5.00)\n  ARID3A (Log2FC=-0.37, Padj=2.81e-03, score=-4.87)\n  HIST1H2BK (Log2FC=-0.19, Padj=3.39e-03, score=-4.81)\n  KRT18 (Log2FC=-0.22, Padj=1.27e-02, score=-4.50)\n  RHOBTB3 (Log2FC=-0.32, Padj=2.16e-02, score=-4.34)\n\nInterpretation:\nKnocking out EP300 leads to up-regulation of FAH, MPC2, CNIH4, KDELR1, STMN1\nand down-regulation of HBG2, APOC1, CHI3L2, HBZ, HBG1.\nThe strongest effect is on HBG2 \n(Log2FC=-0.60 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 23,
+      "n_upregulated": 7,
+      "n_downregulated": 16,
+      "top_up_genes": [
+        "FAH",
+        "MPC2",
+        "CNIH4",
+        "KDELR1",
+        "STMN1",
+        "CCDC85B",
+        "NDUFA8"
+      ],
+      "top_down_genes": [
+        "HBG2",
+        "APOC1",
+        "CHI3L2",
+        "HBZ",
+        "HBG1",
+        "SH3BGRL3",
+        "MS4A3",
+        "HBA1",
+        "GYPB",
+        "HIST1H1C"
+      ],
+      "max_log2fc": 0.8116021,
+      "min_log2fc": -0.92318684
+    }
+  },
+  {
+    "perturbation": "SNAI1",
+    "text": "Perturbation: knockout of SNAI1\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 65\n- Up-regulated genes: 20\n- Down-regulated genes: 20\n\nTop up-regulated genes (strongest positive Log2FC):\n  GSTP1 (Log2FC=0.37, Padj=2.36e-37, score=13.56)\n  HBG2 (Log2FC=0.46, Padj=1.15e-24, score=11.12)\n  CHI3L2 (Log2FC=0.78, Padj=2.06e-24, score=11.04)\n  CFD (Log2FC=0.80, Padj=2.06e-24, score=11.03)\n  IFITM2 (Log2FC=0.67, Padj=1.67e-13, score=8.41)\n  MPC2 (Log2FC=0.58, Padj=9.18e-10, score=7.30)\n  CRYM (Log2FC=0.96, Padj=1.29e-09, score=7.24)\n  CCND3 (Log2FC=0.47, Padj=4.87e-09, score=7.05)\n  PRSS57 (Log2FC=0.55, Padj=5.41e-09, score=7.03)\n  VAMP8 (Log2FC=0.30, Padj=2.75e-08, score=6.78)\n  HBG1 (Log2FC=0.23, Padj=3.84e-07, score=6.37)\n  RGS16 (Log2FC=0.99, Padj=3.94e-07, score=6.36)\n  GLRX (Log2FC=1.28, Padj=1.48e-06, score=6.14)\n  COX7C (Log2FC=0.19, Padj=3.86e-05, score=5.57)\n  SLC29A1 (Log2FC=0.81, Padj=9.53e-05, score=5.41)\n  STMN1 (Log2FC=0.26, Padj=1.63e-04, score=5.30)\n  FTH1 (Log2FC=0.08, Padj=1.85e-04, score=5.26)\n  PRSS1 (Log2FC=1.34, Padj=2.74e-04, score=5.18)\n  TMSB4X (Log2FC=0.13, Padj=2.82e-04, score=5.17)\n  AIF1 (Log2FC=0.71, Padj=4.41e-04, score=5.07)\n\nTop down-regulated genes (strongest negative Log2FC):\n  APOC1 (Log2FC=-0.48, Padj=7.39e-34, score=-12.91)\n  NPW (Log2FC=-0.91, Padj=3.57e-23, score=-10.75)\n  MDK (Log2FC=-0.58, Padj=3.60e-22, score=-10.52)\n  TMSB10 (Log2FC=-0.54, Padj=3.75e-19, score=-9.83)\n  APOE (Log2FC=-0.36, Padj=8.23e-11, score=-7.63)\n  GAL (Log2FC=-0.26, Padj=2.75e-08, score=-6.78)\n  VIM (Log2FC=-0.43, Padj=5.79e-07, score=-6.29)\n  BSG (Log2FC=-0.18, Padj=3.94e-06, score=-5.97)\n  BTG1 (Log2FC=-0.40, Padj=7.78e-06, score=-5.85)\n  LGALS1 (Log2FC=-0.52, Padj=1.81e-04, score=-5.28)\n  RPL10 (Log2FC=-0.09, Padj=1.85e-04, score=-5.26)\n  RPL18A (Log2FC=-0.06, Padj=3.94e-04, score=-5.10)\n  LAPTM4B (Log2FC=-0.27, Padj=4.60e-04, score=-5.06)\n  S100A13 (Log2FC=-0.68, Padj=4.65e-04, score=-5.05)\n  RPL15 (Log2FC=-0.06, Padj=6.25e-04, score=-4.98)\n  GPX4 (Log2FC=-0.12, Padj=2.07e-03, score=-4.73)\n  EEF1D (Log2FC=-0.14, Padj=2.33e-03, score=-4.70)\n  ALAS2 (Log2FC=-0.55, Padj=5.73e-03, score=-4.50)\n  RPS4X (Log2FC=-0.07, Padj=7.34e-03, score=-4.44)\n  SPATC1L (Log2FC=-0.32, Padj=8.92e-03, score=-4.40)\n\nInterpretation:\nKnocking out SNAI1 leads to up-regulation of GSTP1, HBG2, CHI3L2, CFD, IFITM2\nand down-regulation of APOC1, NPW, MDK, TMSB10, APOE.\nThe strongest effect is on GSTP1 \n(Log2FC=0.37 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 65,
+      "n_upregulated": 35,
+      "n_downregulated": 30,
+      "top_up_genes": [
+        "GSTP1",
+        "HBG2",
+        "CHI3L2",
+        "CFD",
+        "IFITM2",
+        "MPC2",
+        "CRYM",
+        "CCND3",
+        "PRSS57",
+        "VAMP8"
+      ],
+      "top_down_genes": [
+        "APOC1",
+        "NPW",
+        "MDK",
+        "TMSB10",
+        "APOE",
+        "GAL",
+        "VIM",
+        "BSG",
+        "BTG1",
+        "LGALS1"
+      ],
+      "max_log2fc": 1.3375084,
+      "min_log2fc": -0.9135507
+    }
+  },
+  {
+    "perturbation": "SPI1",
+    "text": "Perturbation: knockout of SPI1\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 369\n- Up-regulated genes: 20\n- Down-regulated genes: 20\n\nTop up-regulated genes (strongest positive Log2FC):\n  PRSS57 (Log2FC=1.69, Padj=4.68e-132, score=24.85)\n  AC108868.6 (Log2FC=8.28, Padj=7.00e-130, score=24.63)\n  EMP3 (Log2FC=0.91, Padj=1.78e-83, score=19.80)\n  LGALS1 (Log2FC=1.09, Padj=4.10e-42, score=14.19)\n  SH3BGRL3 (Log2FC=0.80, Padj=5.38e-31, score=12.23)\n  C9orf16 (Log2FC=0.46, Padj=6.82e-30, score=12.02)\n  ESAM (Log2FC=1.16, Padj=1.13e-29, score=11.97)\n  C19orf24 (Log2FC=0.55, Padj=1.76e-24, score=10.91)\n  CTSH (Log2FC=0.82, Padj=1.01e-22, score=10.54)\n  ARL6IP4 (Log2FC=0.35, Padj=4.58e-22, score=10.39)\n  TIMP1 (Log2FC=0.65, Padj=2.69e-19, score=9.75)\n  CLIC1 (Log2FC=0.32, Padj=2.62e-18, score=9.50)\n  SDF2L1 (Log2FC=0.27, Padj=6.55e-18, score=9.40)\n  GUK1 (Log2FC=0.32, Padj=1.68e-16, score=9.04)\n  STMN1 (Log2FC=0.34, Padj=4.02e-15, score=8.68)\n  TMEM14B (Log2FC=0.30, Padj=3.39e-14, score=8.43)\n  RHOC (Log2FC=0.59, Padj=6.34e-14, score=8.35)\n  CD63 (Log2FC=0.28, Padj=7.55e-14, score=8.32)\n  CHCHD2 (Log2FC=0.11, Padj=8.76e-14, score=8.30)\n  C19orf10 (Log2FC=0.36, Padj=3.76e-12, score=7.82)\n\nTop down-regulated genes (strongest negative Log2FC):\n  PA2G4 (Log2FC=-1.49, Padj=3.49e-168, score=-28.02)\n  APOE (Log2FC=-1.15, Padj=1.48e-105, score=-22.23)\n  LY6E (Log2FC=-1.38, Padj=1.60e-90, score=-20.61)\n  IFITM2 (Log2FC=-2.14, Padj=6.62e-67, score=-17.77)\n  RPL13A (Log2FC=-0.22, Padj=3.56e-50, score=-15.45)\n  CHI3L2 (Log2FC=-1.21, Padj=4.75e-41, score=-14.01)\n  MS4A4A (Log2FC=-0.95, Padj=9.08e-41, score=-13.96)\n  RPL10 (Log2FC=-0.23, Padj=2.62e-39, score=-13.71)\n  APOC1 (Log2FC=-0.52, Padj=2.16e-38, score=-13.55)\n  CYBA (Log2FC=-0.55, Padj=2.84e-29, score=-11.89)\n  PYCARD (Log2FC=-1.33, Padj=5.08e-28, score=-11.64)\n  RPS18 (Log2FC=-0.14, Padj=7.99e-28, score=-11.60)\n  RPL37 (Log2FC=-0.20, Padj=1.89e-21, score=-10.25)\n  SMYD3 (Log2FC=-0.89, Padj=4.24e-19, score=-9.70)\n  SPI1 (Log2FC=-4.23, Padj=8.80e-19, score=-9.62)\n  NPW (Log2FC=-0.72, Padj=2.00e-18, score=-9.53)\n  IFITM1 (Log2FC=-1.55, Padj=2.17e-18, score=-9.52)\n  TMSB4X (Log2FC=-0.25, Padj=3.76e-18, score=-9.46)\n  RPL10A (Log2FC=-0.14, Padj=1.00e-16, score=-9.10)\n  RPL3 (Log2FC=-0.14, Padj=7.10e-16, score=-8.88)\n\nInterpretation:\nKnocking out SPI1 leads to up-regulation of PRSS57, AC108868.6, EMP3, LGALS1, SH3BGRL3\nand down-regulation of PA2G4, APOE, LY6E, IFITM2, RPL13A.\nThe strongest effect is on PA2G4 \n(Log2FC=-1.49 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 369,
+      "n_upregulated": 230,
+      "n_downregulated": 139,
+      "top_up_genes": [
+        "PRSS57",
+        "AC108868.6",
+        "EMP3",
+        "LGALS1",
+        "SH3BGRL3",
+        "C9orf16",
+        "ESAM",
+        "C19orf24",
+        "CTSH",
+        "ARL6IP4"
+      ],
+      "top_down_genes": [
+        "PA2G4",
+        "APOE",
+        "LY6E",
+        "IFITM2",
+        "RPL13A",
+        "CHI3L2",
+        "MS4A4A",
+        "RPL10",
+        "APOC1",
+        "CYBA"
+      ],
+      "max_log2fc": 8.280602,
+      "min_log2fc": -4.229463
+    }
+  },
+  {
+    "perturbation": "ZNF326",
+    "text": "Perturbation: knockout of ZNF326\n\nSummary:\n- Total significant differentially expressed genes (Padj < 0.05): 52\n- Up-regulated genes: 20\n- Down-regulated genes: 20\n\nTop up-regulated genes (strongest positive Log2FC):\n  HBG1 (Log2FC=0.52, Padj=1.09e-39, score=13.95)\n  HBG2 (Log2FC=0.57, Padj=6.57e-38, score=13.61)\n  HBZ (Log2FC=0.48, Padj=1.76e-14, score=8.76)\n  BLVRB (Log2FC=0.67, Padj=4.75e-13, score=8.35)\n  HBA1 (Log2FC=0.39, Padj=5.20e-11, score=7.72)\n  CFD (Log2FC=0.53, Padj=1.76e-08, score=6.92)\n  HMBS (Log2FC=0.37, Padj=1.50e-06, score=6.21)\n  MYL4 (Log2FC=0.32, Padj=3.07e-05, score=5.68)\n  MS4A3 (Log2FC=0.26, Padj=1.69e-04, score=5.32)\n  HBA2 (Log2FC=1.16, Padj=2.64e-04, score=5.21)\n  SLC25A37 (Log2FC=0.50, Padj=2.65e-04, score=5.21)\n  RPS20 (Log2FC=0.10, Padj=3.33e-04, score=5.16)\n  ALAS2 (Log2FC=0.52, Padj=9.82e-04, score=4.93)\n  KLF1 (Log2FC=0.41, Padj=1.28e-03, score=4.87)\n  STMN1 (Log2FC=0.21, Padj=1.38e-03, score=4.85)\n  ESD (Log2FC=0.30, Padj=1.63e-03, score=4.81)\n  SSSCA1 (Log2FC=0.32, Padj=4.32e-03, score=4.60)\n  HEMGN (Log2FC=0.47, Padj=1.54e-02, score=4.29)\n  RPL26 (Log2FC=0.11, Padj=3.55e-02, score=4.07)\n  RPS21 (Log2FC=0.09, Padj=3.84e-02, score=4.05)\n\nTop down-regulated genes (strongest negative Log2FC):\n  ZNF326 (Log2FC=-2.70, Padj=9.32e-36, score=-13.21)\n  SPATC1L (Log2FC=-0.55, Padj=1.12e-12, score=-8.23)\n  RPS9 (Log2FC=-0.13, Padj=7.43e-12, score=-7.98)\n  SH3BGRL3 (Log2FC=-0.47, Padj=8.49e-08, score=-6.68)\n  SMYD3 (Log2FC=-0.60, Padj=1.35e-07, score=-6.60)\n  NPW (Log2FC=-0.51, Padj=2.80e-07, score=-6.48)\n  KRT18 (Log2FC=-0.32, Padj=1.67e-06, score=-6.18)\n  CHI3L2 (Log2FC=-0.49, Padj=8.06e-06, score=-5.91)\n  TSPAN13 (Log2FC=-0.63, Padj=3.94e-05, score=-5.62)\n  GPX4 (Log2FC=-0.12, Padj=8.96e-05, score=-5.46)\n  PLP2 (Log2FC=-0.55, Padj=8.96e-05, score=-5.46)\n  EEF1D (Log2FC=-0.11, Padj=8.96e-05, score=-5.44)\n  LGALS1 (Log2FC=-0.52, Padj=8.96e-05, score=-5.44)\n  ARL6IP4 (Log2FC=-0.23, Padj=2.02e-04, score=-5.28)\n  EGFL7 (Log2FC=-0.42, Padj=2.15e-04, score=-5.26)\n  RHOBTB3 (Log2FC=-0.38, Padj=4.33e-04, score=-5.10)\n  CMTM6 (Log2FC=-0.33, Padj=5.76e-04, score=-5.04)\n  CMTM7 (Log2FC=-0.37, Padj=2.03e-03, score=-4.76)\n  STXBP6 (Log2FC=-0.63, Padj=4.58e-03, score=-4.58)\n  PKM (Log2FC=-0.20, Padj=5.95e-03, score=-4.52)\n\nInterpretation:\nKnocking out ZNF326 leads to up-regulation of HBG1, HBG2, HBZ, BLVRB, HBA1\nand down-regulation of ZNF326, SPATC1L, RPS9, SH3BGRL3, SMYD3.\nThe strongest effect is on HBG1 \n(Log2FC=0.52 if len(sig) > 0 else 'N/A').\n",
+    "metadata": {
+      "n_significant": 52,
+      "n_upregulated": 23,
+      "n_downregulated": 29,
+      "top_up_genes": [
+        "HBG1",
+        "HBG2",
+        "HBZ",
+        "BLVRB",
+        "HBA1",
+        "CFD",
+        "HMBS",
+        "MYL4",
+        "MS4A3",
+        "HBA2"
+      ],
+      "top_down_genes": [
+        "ZNF326",
+        "SPATC1L",
+        "RPS9",
+        "SH3BGRL3",
+        "SMYD3",
+        "NPW",
+        "KRT18",
+        "CHI3L2",
+        "TSPAN13",
+        "GPX4"
+      ],
+      "max_log2fc": 1.161219,
+      "min_log2fc": -2.700497
+    }
+  }
+]

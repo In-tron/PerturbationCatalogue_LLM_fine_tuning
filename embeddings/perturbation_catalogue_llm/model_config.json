@@ -1,0 +1,5 @@
+{
+  "n_genes": 484,
+  "embed_dim": 256,
+  "max_genes": 2048
+}
