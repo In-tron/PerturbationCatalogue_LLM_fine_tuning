@@ -104,7 +104,7 @@ class AnthropicBackend(LLMBackend):
 
 
 class OllamaBackend(LLMBackend):
-    def __init__(self, model: str = "llama3"):
+    def __init__(self, model: str = "llama3.1:8b"):
         try:
             import requests
             self.requests = requests
@@ -128,7 +128,7 @@ def get_backend(name: str, model: str = None) -> LLMBackend:
     backends = {
         "openai":    (OpenAIBackend,    model or "gpt-4o"),
         "anthropic": (AnthropicBackend, model or "claude-sonnet-4-5"),
-        "ollama":    (OllamaBackend,    model or "llama3"),
+        "ollama":    (OllamaBackend,    model or "llama3.1:8b"),
     }
     if name not in backends:
         raise ValueError(f"Unknown backend '{name}'. Choose: {list(backends)}")
